@@ -1,63 +1,113 @@
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/style_display.css">
-<link rel="stylesheet" href="./css/style_footer.css">
-<link rel="stylesheet" href="./css/style_header.css">
-<link rel="stylesheet" href="./css/style_products.css">
-<link rel="stylesheet" href="./css/style_sidebar.css">
-<link rel="stylesheet" href="./css/slider.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
 
-<!-- Font Awesome icons -->
-<script src="https://kit.fontawesome.com/2130044614.js" crossorigin="anonymous"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tough Rentals</title>
 
-<script>
-    $(document).ready(function () {
-        $('.slider').bxSlider({
-            auto: true,
-            pause: 9000,
-            speed: 4000,
+    <link rel="stylesheet" href="./css/style_banner.css">
+    <link rel="stylesheet" href="./css/style_display.css">
+    <link rel="stylesheet" href="./css/style_footer.css">
+    <link rel="stylesheet" href="./css/style_header.css">
+    <link rel="stylesheet" href="./css/style_products.css">
+    <link rel="stylesheet" href="./css/style_sidebar.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <!--  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/2130044614.js" crossorigin="anonymous"></script>
+
+    <!-- JS for the moving banner -->
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 9000,
+                speed: 4000,
+            });
         });
-    });
-</script>
+    </script>
 </head>
 
 <body>
 
     <!-- Header -->
     <div class="header">
-        <!-- <img class="img-logo" src="./media/Logo.PNG" alt="logo"> -->
-        <a href="#default" class="logo">Tough Rentals</a> <!-- maybe add image with -->
-        <div class="header-right">
-            <a class="active" href="#home">Home</a> <!-- choose the right tabs -->
+        <ul class="logo_drop">
+            <li>
+                <a href="#default" class="logo"><img class="img-logo" src="./media/Logo.PNG" alt="logo"></a>
+                <ul class="drop_logo">
+                    <li><a href="#"><i class="qrcode"></i>Home</a></li>
+                    <li><a href="#"><i class="link"></i>Contact</a></li>
+                    <li><a href="#"><i class="stream"></i>About</a></li>
+                    <li><a href="#"><i class="calendar-week"></i>Products</a></li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <!--Horizontal 3-column drop-down menu-->
+
+        <!-- <div id="menu"> -->
+
+        <!-- <ul class="main1">
+            <li><a href="#default" class="logo"><img class="img-logo" src="./media/Logo.PNG" alt="logo"></a>
+                <ul class="main2">
+                    <li><a href="#">Small Menu 1</a></li>
+                    <li><a href="#">Small Menu 2</a></li>
+                </ul>
+            </li>
+        </ul> -->
+    </div>
+
+
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="#"><i class="qrcode"></i>Home</a></li>
+            <li><a href="#"><i class="link"></i>Contact</a></li>
+            <li><a href="#"><i class="stream"></i>About</a></li>
+            <li><a href="#"><i class="calendar-week"></i>Products</a></li>
+
+        </ul>
+    </div>
+    </ul>
+
+    <!-- <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fa fa-bars" id="btn"> Menu</i>
+        <i class="fa fa-times" id="cancel"></i>
+    </label> -->
+    <!-- <div class="sidebar">
+            <header>My App</header>
+            <ul>
+                <li><a href="#"><i class="qrcode"></i>Dashboard</a></li>
+                <li><a href="#"><i class="link"></i>Shortcuts</a></li>
+                <li><a href="#"><i class="stream"></i>Overview</a></li>
+                <li><a href="#"><i class="calendar-week"></i>Events</a></li>
+                <li><a href="#"><i class="question-circle"></i>About</a></li>
+                <li><a href="#"><i class="sliders-h"></i>Services</a></li>
+                <li><a href="#"><i class="envelope"></i>Contact</a></li>
+            </ul>
+        </div> -->
+
+    <!-- <div class="header-right">
+            <a class="active" href="#home">Home</a>
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
-        </div>
+        </div> -->
     </div>
 
 
     <!-- Sidebar -->
-    <input type="checkbox" id="check">
-    <label for="check">
-        <i class="fa fa-bars" id="btn"> Menu</i>
-        <i class="fa fa-times" id="cancel"></i>
-    </label>
-    <div class="sidebar">
-        <header>My App</header>
-        <ul>
-            <li><a href="#"><i class="qrcode"></i>Dashboard</a></li>
-            <li><a href="#"><i class="link"></i>Shortcuts</a></li>
-            <li><a href="#"><i class="stream"></i>Overview</a></li>
-            <li><a href="#"><i class="calendar-week"></i>Events</a></li>
-            <li><a href="#"><i class="question-circle"></i>About</a></li>
-            <li><a href="#"><i class="sliders-h"></i>Services</a></li>
-            <li><a href="#"><i class="envelope"></i>Contact</a></li>
-        </ul>
-    </div>
 
+    <!-- banner -->
     <div class="section-banner">
 
-
+<!-- 
         <div class="slider">
             <img class="slideImage" src="./media/BG1.jpeg">
             <img class="slideImage" src="./media/BG2.jpeg">
@@ -65,7 +115,7 @@
             <img class="slideImage" src="./media/BG4.jpg">
             <img class="slideImage" src="./media/BG5.jpg">
             <img class="slideImage" src="./media/BG6.jpg">
-        </div>
+        </div> -->
 
 
         <!-- this is banner -->

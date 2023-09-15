@@ -58,7 +58,7 @@
     font-size: .85em;
     font-family: Arial;
     font-weight: bold;
-    color: #666;
+    color: #b3b3b3;
     padding-top: 20px;
   }
   .bx-wrapper .bx-pager.bx-default-pager a {
@@ -92,19 +92,23 @@
   /* DIRECTION CONTROLS (NEXT / PREV) */
   .bx-wrapper .bx-prev {
     left: 10px;
-    background: url('../media/Logo.PNG') no-repeat 0 -32px;
+    background: url('../media/Prev.png') no-repeat;
   }
   .bx-wrapper .bx-prev:hover,
   .bx-wrapper .bx-prev:focus {
     background-position: 0 0;
+    scale: 1.3
   }
   .bx-wrapper .bx-next {
     right: 10px;
-    background: url('../media/me.jpg') no-repeat -43px -32px;
+    width: 10px;
+    background: url('../media/Next.png') no-repeat;
+    
   }
   .bx-wrapper .bx-next:hover,
   .bx-wrapper .bx-next:focus {
-    background-position: -43px 0;
+    background-position: 0 0;
+    scale: 1.3;
   }
   .bx-wrapper .bx-controls-direction a {
     position: absolute;
