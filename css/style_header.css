@@ -11,7 +11,7 @@
   float: left;
   color: black;
   text-align: center;
-  /* padding: 0 100px 0 0; */
+  padding: 0 0 0 0;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -72,39 +72,61 @@
   height: 100%;
   margin: 0 ;
   list-style: none;
+  text-align: center;
+
   z-index: 1;
 }
 
 .logo_drop > li {
   float: left;
   width: 25%;
-  line-height: 50px;
+  line-height: 500px;
   text-align: center;
   position: relative;
+  
 }
 
 .logo_drop li:hover .drop_logo {
-  left: 0;
+  left: 50px;
   display: block;
+  text-align: center;
+  
+
 }
 
 .logo_drop > li a {
   display: block;
+  height: 100px;
+  width: 250px;
+  top: 50%;
+  align-items: center;
+  position: relative;
+  display: flex;
+  text-align: center;
 }
 
 .logo_drop > li a:hover {
-  background: #b21016;
+  background: #425b9b;
   color: #fff;
   font-weight: bold;
-}
+  padding: 0 0 0 0;
+  margin-left: 0px;
+  text-align: center;
+  }
 
 .drop_logo {
   position: fixed;
-  top: 15%;
-  background: #ccc;
+  top: 120px;; 
+  background: #fff;
+  color: #ffffff;
   width: auto;
   display: none;
   list-style: none;
-  height: 100px;
-  padding: 0 50px 0 0;
+  /* height: 100px; */
+  padding: 10px 10px 0 0;
+  text-align: center;
+  border-bottom-right-radius:4px ;
+  border-bottom-left-radius:4px ;
+  z-index: 1;
+  
 }
