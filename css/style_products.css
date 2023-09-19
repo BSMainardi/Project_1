@@ -24,20 +24,34 @@ header {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
   padding: 2rem;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
-.product{
-  vertical-align:bottom;
+.prod1{
+  position: relative;
+  bottom: -2px;
+  display: inline-grid;
 }
-.teste{
-  
-  position: a;
-  bottom: 0;
+
+.prod2{
+  position: relative;
+  bottom: -64px;
+  display: inline-grid;
+}
+.prod3{
+  position: relative;
+  bottom: -80px;
+  display: inline-grid;
+}
+
+.prod4{
+  position: relative;
+  bottom: -41px;
+  display: inline-grid;
 }
 
 .product-image {
