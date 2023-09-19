@@ -1,8 +1,33 @@
-
-.slider{
+.slider {
   text-align: center;
   color: #fff;
   width: 100px;
   height: 100px;
   z-index: 0;
+}
+
+.banner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px;
+  background-color: #27365C;
+
+  & p {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+  }
+  & h1 {
+    margin: 0;
+    box-shadow: 2px 2px 5px #fff;
+    max-width: 200px;
+    color: #fff;
+    background-color: #3B9C42;
+
+  }
+  & a {
+    float: right;
+    color: #fff;
+  }
 }
