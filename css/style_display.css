@@ -14,6 +14,11 @@ body {
   gap: 1rem;
 }
 
+.product-grid {
+  float: left;
+  width: 50%;
+}
+
 .product {
   border: 1px solid #ddd;
   background-color: #fff;
@@ -45,6 +50,7 @@ body {
     border-radius: 15px;
   }
 }
+
 .container_contact {
   max-width: 850px;
   margin: 0 auto;
@@ -102,5 +108,9 @@ body {
     grid-template-columns: repeat(1, minmax(200px, 1fr)); /* Grid size */
     gap: 1rem;
     font-size: 25px;
+  }
+  .product-grid {
+    float: none;
+    width: 100%;
   }
 }
