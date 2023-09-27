@@ -29,8 +29,7 @@ header {
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
-  
-}
+  }
 
 .product-image {
   max-width: 100%;
@@ -50,9 +49,7 @@ header {
   display: block;
   align-items: center;
   justify-content: center;
-  border-radius: 25px;
-  
-  
+  border-radius: 25px; 
 }
 
 .product-description {

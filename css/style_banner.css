@@ -1,11 +1,4 @@
-.slider {
-  text-align: center;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  z-index: 0;
-}
-
+/* Banner in the home page*/
 .banner {
   max-width: 800px;
   margin: 0 auto;
