@@ -94,6 +94,7 @@
   animation-name: Rotate;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
+  animation-delay: 0.5s;
 }
 
 @keyframes Rotate {
